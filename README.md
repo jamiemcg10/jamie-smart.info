@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jamie Smart at a Glance
 
-## Getting Started
+## About me
 
-First, run the development server:
+#### Executive Summary
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Full-stack software engineer with experience building user-friendly, reliable web applications and optimizing system performance. Skilled in managing both SQL and NoSQL databases to support efficient, real-time applications. Adept at translating complex requirements into practical solutions and collaborating across teams to deliver high-impact, user-focused features. Committed to improving scalability, usability, and clarity through clean, maintainable code.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Skills
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Languages: TypeScript, Python, JavaScript, HTML, CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Frontend: Svelte, SvelteKit, React, Next.js, Cypress, Playwright
 
-## Learn More
+Backend: Express.js, Node.js
 
-To learn more about Next.js, take a look at the following resources:
+Databases: Cloud Firestore, ElasticSearch, PostgreSQL, MySQL, MongoDB
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tools & Platforms: Git, GitHub, Cypress, Playwright, Figma, Linear
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Professional: Efficient communication, cross-functional collaboration, adaptability, attention to detail
 
-## Deploy on Vercel
+Full resume [here](https://jamie-smart.info/resume)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Portfolio
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### MyVirtualCookbook
+
+[https://my-virtual-cookbook.vercel.app/](https://my-virtual-cookbook.vercel.app/)
+
+MyVirtualCookbook is a web app that lets users add links to recipes to their cookbook and organize them into sections called chapters. Users can add notes to recipes which are saved and tied to the recipe. MyVirtualCookbook was built using React, Next.js, Firebase Authentication, and Cloud Firestore.
+
+#### Mountain Comparer
+
+[https://mountain-comparer.vercel.app/](https://mountain-comparer.vercel.app/)
+
+Mountain Comparer is a web app that lets users compare the weather conditions at different ski resorts. Mountain Comparer was built using Svelte, SvelteKit, and the OpenWeatherMap API.
+
+To see the code for these projects and more, check out my [GitHub profile](https://github.com/jamiemcg10)
