@@ -16,7 +16,7 @@ Backend: Express.js, Node.js
 
 Databases: Cloud Firestore, ElasticSearch, PostgreSQL, MySQL, MongoDB
 
-Tools & Platforms: Git, GitHub, Cypress, Playwright, Figma, Linear, Material UI
+Tools & Platforms: Git, GitHub, Cypress, Playwright, Figma, Linear, Tailwind CSS, Material UI
 
 Professional: Efficient communication, cross-functional collaboration, adaptability, attention to detail
 
