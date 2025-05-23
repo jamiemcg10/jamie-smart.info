@@ -10,7 +10,7 @@ Full-stack software engineer with experience building user-friendly, reliable we
 
 Languages: TypeScript, Python, JavaScript, HTML, CSS
 
-Frontend: Svelte, SvelteKit, React, Next.js, Cypress, Playwright
+Frontend: Svelte, SvelteKit, React, Next.js
 
 Backend: Express.js, Node.js
 
