@@ -7,6 +7,7 @@ interface PortfolioItemProps {
   posterSrc: string
   src: string
   videoType?: string
+  trackSrc?: string
 }
 
 export default function PortfolioItem({
@@ -15,13 +16,15 @@ export default function PortfolioItem({
   description,
   posterSrc,
   src,
-  videoType = 'video/mp4'
+  videoType = 'video/mp4',
+  trackSrc
 }: PortfolioItemProps) {
   return (
     <div className="flex flex-col sm:flex-row mb-8 sm:mb-12">
       <div className="basis-1/2 sm:pr-6 mt-8 sm:mt-0">
-        <video controls muted poster={posterSrc}>
-          <source src={src} type={videoType}></source>
+        <video controls poster={posterSrc} controlsList="nodownload">
+          <source src={src} type={videoType} />
+          {trackSrc ? <track kind="captions" src={trackSrc} srcLang="en" /> : null}
         </video>
       </div>
       <div className="basis-1/2 sm:pl-6 mt-4 sm:mt-0">
