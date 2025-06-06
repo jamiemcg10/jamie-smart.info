@@ -1,7 +1,7 @@
 import Subheading from './Subheading'
 
 const skills = {
-  Languages: 'TypeScript, Python, JavaScript, HTML, CSS',
+  Languages: 'TypeScript, Python, JavaScript, Java, HTML, CSS',
   Frontend: 'Svelte, SvelteKit, React, Next.js',
   Backend: 'Express.js, Node.js',
   Databases: 'Cloud Firestore, ElasticSearch, PostgreSQL, MySQL, MongoDB',
