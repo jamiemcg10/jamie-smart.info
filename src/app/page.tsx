@@ -23,7 +23,6 @@ export default function Home() {
         <Section title="Portfolio" href="portfolio">
           <MyVirtualCookbook />
           <MountainComparer />
-          <GitHubLink />
         </Section>
       </div>
     </>
