@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import Header from './components/Header/Header'
 import MountainComparer from './components/MountainComparer'
 import MyVirtualCookbook from './components/MyVirtualCookbook'
@@ -23,6 +24,7 @@ export default function Home() {
           <MyVirtualCookbook />
           <MountainComparer />
         </Section>
+        <Footer />
       </div>
     </>
   )
