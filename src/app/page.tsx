@@ -1,4 +1,3 @@
-import GitHubLink from './components/GitHubLink'
 import Header from './components/Header/Header'
 import MountainComparer from './components/MountainComparer'
 import MyVirtualCookbook from './components/MyVirtualCookbook'
