@@ -12,7 +12,7 @@ export default function Footer() {
       <IconButton href="https://www.linkedin.com/in/jamie-a-smart" target="_blank" size="small">
         <LinkedInIcon sx={{ color: 'white' }} />
       </IconButton>
-      <IconButton href="mailto:jamie.a.smart@gmail.com" target="_blank" size="small">
+      <IconButton href="mailto:jamie@jamie-smart.info" target="_blank" size="small">
         <EmailIcon sx={{ color: 'white' }} />
       </IconButton>
     </div>
