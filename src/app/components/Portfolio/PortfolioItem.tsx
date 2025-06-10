@@ -4,6 +4,9 @@ import Subheading from '../Subheading'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkIcon from '@mui/icons-material/Link'
 import IconButton from '@mui/material/IconButton'
+import { createTheme } from '@mui/material/styles'
+
+const theme = createTheme()
 
 interface PortfolioItemProps {
   title: string
@@ -34,10 +37,18 @@ export default function PortfolioItem({
       <div className="basis-1/2 sm:pl-6 mt-4 sm:mt-0">
         <Subheading>{title}</Subheading>
         <IconButton href={url} target="_blank" size="small">
-          <LinkIcon sx={{ color: 'white' }} />
+          <LinkIcon
+            sx={{
+              color: 'var(--foreground)'
+            }}
+          />
         </IconButton>
         <IconButton href={gitHubUrl} target="_blank" size="small">
-          <GitHubIcon sx={{ color: 'white' }} />
+          <GitHubIcon
+            sx={{
+              color: 'var(--foreground)'
+            }}
+          />
         </IconButton>
         <div className="text-sm mt-4">{description}</div>
       </div>
