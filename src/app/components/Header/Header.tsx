@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import DesktopMenu from './DesktopMenu'
+import MobileMenu from './MobileMenu'
 
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
       <div className="w-9 h-9">
         <Image src="/logo.ico" alt="logo" width="64" height="64" />
       </div>
-
+      <MobileMenu />
       <DesktopMenu />
     </div>
   )

@@ -4,7 +4,7 @@ import Latitude from './Latitude'
 
 export default function Experience() {
   return (
-    <div className="w-2/3">
+    <div className="w-full sm:w-2/3 mt-8 sm:mt-0">
       <Subheading>Experience</Subheading>
       <div className="mt-6">
         <Latitude />
