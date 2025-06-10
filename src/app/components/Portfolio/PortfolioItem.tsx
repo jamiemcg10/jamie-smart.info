@@ -4,9 +4,6 @@ import Subheading from '../Subheading'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkIcon from '@mui/icons-material/Link'
 import IconButton from '@mui/material/IconButton'
-import { createTheme } from '@mui/material/styles'
-
-const theme = createTheme()
 
 interface PortfolioItemProps {
   title: string
