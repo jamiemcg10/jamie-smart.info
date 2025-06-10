@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import DesktopMenu from '../DesktopMenu'
+import DesktopMenu from './DesktopMenu'
 
 export default function Header() {
   return (

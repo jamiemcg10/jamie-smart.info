@@ -1,7 +1,7 @@
 'use client'
 
-import { highlightContactInfo } from './Footer'
-import DesktopMenuItem from './Header/DesktopMenuItem'
+import { highlightContactInfo } from '../Footer'
+import DesktopMenuItem from './DesktopMenuItem'
 
 export default function DesktopMenu() {
   return (
