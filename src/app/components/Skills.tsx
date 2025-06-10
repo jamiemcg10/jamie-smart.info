@@ -1,28 +1,58 @@
+import Skill from './Skill'
 import Subheading from './Subheading'
-
-const skills = {
-  Languages: 'TypeScript, Python, JavaScript, HTML, CSS',
-  Frontend: 'Svelte, SvelteKit, React, Next.js',
-  Backend: 'Express.js, Node.js',
-  Databases: 'Cloud Firestore, ElasticSearch, PostgreSQL, MySQL, MongoDB',
-  'Tools & Platforms': 'Git, GitHub, Cypress, Playwright, Figma, Linear, Tailwind CSS, Material UI',
-  Professional:
-    'Efficient communication, cross-functional collaboration, adaptability, attention to detail'
-}
 
 export default function Skills() {
   return (
     <div>
       <Subheading>Skills</Subheading>
-      <div className="sm:columns-2">
-        {Object.entries(skills).map(([category, skillList], i) => {
-          return (
-            <div key={i}>
-              <div className="break-after-avoid">{category}:</div>
-              <div className="text-sm mb-2">{skillList}</div>
-            </div>
-          )
-        })}
+      <div className="w-1/3 flex flex-col gap-8">
+        <div>
+          <div className="my-4 text-center">Languages</div>
+          <div className="grid grid-cols-3 gap-4">
+            <Skill imgSrc="/skills/typescript.svg">Typescript</Skill>
+            <Skill imgSrc="/skills/javascript.svg">Javascript</Skill>
+            <Skill imgSrc="/skills/python.svg">Python</Skill>
+            <Skill imgSrc="/skills/java.svg">Java</Skill>
+            <Skill imgSrc="/skills/html.svg">HTML5</Skill>
+            <Skill imgSrc="/skills/css.svg">CSS</Skill>
+            <Skill imgSrc="/skills/scss.svg">SCSS</Skill>
+          </div>
+        </div>
+        <div>
+          <div className="my-4 text-center">Frontend</div>
+          <div className="grid grid-cols-3 gap-4">
+            <Skill imgSrc="/skills/svelte.svg">Svelte</Skill>
+            <Skill imgSrc="/skills/svelte.svg">SvelteKit</Skill>
+            <Skill imgSrc="/skills/reactjs.svg">React.js</Skill>
+            <Skill imgSrc="/skills/next.svg">Next.js</Skill>
+          </div>
+        </div>
+        <div>
+          <div className="my-4 text-center">Backend</div>
+          <div className="grid grid-cols-3 gap-4">
+            <Skill imgSrc="/skills/express.svg">Express.js</Skill>
+            <Skill imgSrc="/skills/node.svg">Node.js</Skill>
+            <Skill imgSrc="/skills/firestore.svg">Cloud Firestore</Skill>
+            <Skill imgSrc="/skills/elasticsearch.svg">ElasticSearch</Skill>
+            <Skill imgSrc="/skills/postgresql.svg">PostgreSQL</Skill>
+            <Skill imgSrc="/skills/mysql.svg">MySQL</Skill>
+            <Skill imgSrc="/skills/mongodb.svg">MongoDB</Skill>
+          </div>
+        </div>
+        <div>
+          <div className="my-4 text-center">Tools & Platforms</div>
+          <div className="grid grid-cols-3 gap-4">
+            <Skill imgSrc="/skills/git.svg">Git</Skill>
+            <Skill imgSrc="/skills/github.svg">GitHub</Skill>
+            <Skill imgSrc="/skills/cypress.svg">Cypress</Skill>
+            <Skill imgSrc="/skills/playwright.svg">Playwright</Skill>
+            <Skill imgSrc="/skills/figma.svg">Figma</Skill>
+            <Skill imgSrc="/skills/linear.svg">Linear</Skill>
+            <Skill imgSrc="/skills/tailwind-css.svg">Tailwind CSS</Skill>
+            <Skill imgSrc="/skills/material-ui.svg">Material UI</Skill>
+            <Skill imgSrc="/skills/bootstrap.svg">Bootstrap</Skill>
+          </div>
+        </div>
       </div>
     </div>
   )
