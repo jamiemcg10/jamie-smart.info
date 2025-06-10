@@ -4,7 +4,7 @@ import MountainComparer from './components/Portfolio/MountainComparer'
 import MyVirtualCookbook from './components/Portfolio/MyVirtualCookbook'
 import ResumeLink from './components/ResumeLink'
 import Section from './components/Section'
-import Skills from './components/Skills'
+import SkillsAndExperience from './components/SkillsAndExperience/SkillsAndExperience'
 import Summary from './components/Summary'
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         </div>
         <Section title="About me" href="about">
           <Summary />
-          <Skills />
+          <SkillsAndExperience />
           <ResumeLink />
         </Section>
         <Section title="Portfolio" href="portfolio">

@@ -1,11 +1,11 @@
 import Skill from './Skill'
-import Subheading from './Subheading'
+import Subheading from '../Subheading'
 
 export default function Skills() {
   return (
     <div>
       <Subheading>Skills</Subheading>
-      <div className="w-1/3 flex flex-col gap-8">
+      <div className="flex flex-col gap-8">
         <div>
           <div className="my-4 text-center">Languages</div>
           <div className="grid grid-cols-3 gap-4">
