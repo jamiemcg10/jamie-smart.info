@@ -11,7 +11,7 @@ export default function BH3() {
         </div>
         <div className="italic text-sm mb-2">October 2020 - Present</div>
         <ol className="ml-4 flex flex-col space-y-2 list-disc">
-          <li>Keep the club's website up-to-date with accurate and current information</li>
+          <li>{"Keep the club's website up-to-date with accurate and current information"}</li>
           <li>
             Facilitate annual event registration for ~150 participants by managing form creation,
             data handling, and backend integration
