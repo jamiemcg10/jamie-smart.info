@@ -15,7 +15,7 @@ export default function Footer() {
     setHighlight(true)
     setTimeout(() => {
       setHighlight(false)
-    }, 1500)
+    }, 1000)
   }
 
   return (
