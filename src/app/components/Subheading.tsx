@@ -5,5 +5,5 @@ interface SubheadingProps {
 }
 
 export default function Subheading({ children }: SubheadingProps) {
-  return <div className="text-xl font-medium">{children}</div>
+  return <div className="text-xl font-semibold">{children}</div>
 }
