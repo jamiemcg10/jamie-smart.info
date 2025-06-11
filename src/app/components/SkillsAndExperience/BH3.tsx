@@ -2,11 +2,11 @@ import TimelineSegment from './TimelineSegment'
 
 export default function BH3() {
   return (
-    <div className="flex space-x-4 group">
+    <div className="flex space-x-4 group mt-4">
       <TimelineSegment />
 
       <div>
-        <div className="font-semibold mt-4">
+        <div className="font-semibold">
           Website Administrator - Boston Hash House Harriers Running Club
         </div>
         <div className="italic text-sm mb-2">October 2020 - Present</div>
