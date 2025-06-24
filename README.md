@@ -14,9 +14,9 @@ Frontend: Svelte, SvelteKit, React, Next.js
 
 Backend: Express.js, Node.js
 
-Databases: Cloud Firestore, ElasticSearch, PostgreSQL, MySQL, MongoDB
+Databases: Cloud Firestore, PostgreSQL, MySQL, MongoDB
 
-Tools & Platforms: Git, GitHub, Cypress, Playwright, Figma, Linear, Tailwind CSS, Material UI
+Tools & Platforms: Git, GitHub, ElasticSearch, Cypress, Playwright, Figma, Linear, Tailwind CSS, Material UI
 
 Professional: Efficient communication, cross-functional collaboration, adaptability, attention to detail
 

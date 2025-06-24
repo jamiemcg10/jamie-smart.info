@@ -3,7 +3,6 @@ import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
 import IconButton from '@mui/material/IconButton'
 import Menu from '@mui/material/Menu'
 import MenuItem from '@mui/material/MenuItem'
-import Link from 'next/link'
 import { MouseEventHandler, useState } from 'react'
 import { highlightContactInfo } from '../Footer'
 
@@ -43,33 +42,43 @@ export default function MobileMenu() {
         <MenuItem
           onClick={() => {
             handleClose()
+            const aboutEl = document.getElementById('about')
+            aboutEl?.scrollIntoView({ behavior: 'smooth' })
           }}>
-          <Link href="#about">About</Link>
+          <div>About</div>
         </MenuItem>
         <MenuItem
           onClick={() => {
             handleClose()
+            const skillsEl = document.getElementById('skills')
+            skillsEl?.scrollIntoView({ behavior: 'smooth' })
           }}>
-          <Link href="#skills">Skills</Link>
+          <div>Skills</div>
         </MenuItem>
         <MenuItem
           onClick={() => {
             handleClose()
+            const experienceEl = document.getElementById('experience')
+            experienceEl?.scrollIntoView({ behavior: 'smooth' })
           }}>
-          <Link href="#experience">Experience</Link>
+          <div>Experience</div>
         </MenuItem>
         <MenuItem
           onClick={() => {
             handleClose()
+            const portfolioEl = document.getElementById('portfolio')
+            portfolioEl?.scrollIntoView({ behavior: 'smooth' })
           }}>
-          <Link href="#portfolio">Portfolio</Link>
+          <div>Portfolio</div>
         </MenuItem>
         <MenuItem
           onClick={() => {
             handleClose()
+            const contactEl = document.getElementById('contact')
+            contactEl?.scrollIntoView({ behavior: 'smooth' })
             highlightContactInfo()
           }}>
-          <Link href="#contact">Contact</Link>
+          <div>Contact</div>
         </MenuItem>
       </Menu>
     </div>

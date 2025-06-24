@@ -38,8 +38,12 @@ export default function Skills() {
                 Express.js
               </Skill>
               <Skill imgSrc="/skills/node">Node.js</Skill>
+            </div>
+          </div>
+          <div>
+            <div className="my-3 text-center">Databases</div>
+            <div className="grid grid-cols-4 gap-3">
               <Skill imgSrc="/skills/firestore">Cloud Firestore</Skill>
-              <Skill imgSrc="/skills/elasticsearch">ElasticSearch</Skill>
               <Skill imgSrc="/skills/postgresql">PostgreSQL</Skill>
               <Skill imgSrc="/skills/mysql">MySQL</Skill>
               <Skill imgSrc="/skills/mongodb">MongoDB</Skill>
@@ -52,6 +56,7 @@ export default function Skills() {
               <Skill imgSrc="/skills/github" dualTone>
                 GitHub
               </Skill>
+              <Skill imgSrc="/skills/elasticsearch">ElasticSearch</Skill>
               <Skill imgSrc="/skills/cypress" dualTone>
                 Cypress
               </Skill>
