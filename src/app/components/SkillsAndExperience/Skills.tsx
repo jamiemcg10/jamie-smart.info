@@ -62,9 +62,6 @@ export default function Skills() {
               </Skill>
               <Skill imgSrc="/skills/playwright">Playwright</Skill>
               <Skill imgSrc="/skills/figma">Figma</Skill>
-              <Skill imgSrc="/skills/linear" dualTone>
-                Linear
-              </Skill>
               <Skill imgSrc="/skills/tailwind-css">Tailwind CSS</Skill>
               <Skill imgSrc="/skills/material-ui">Material UI</Skill>
               <Skill imgSrc="/skills/bootstrap">Bootstrap</Skill>

@@ -22,8 +22,8 @@ export default function Latitude() {
             support low-latency updates across dynamic interfaces used by 1,000+ users
           </li>
           <li>
-            Wrote automated unit tests to catch bugs early in the CI process, improving product
-            stability and reducing bugs by 5%
+            Automated testing and deployment with GitHub Actions to enable CI/CD pipelines and catch
+            bugs earlier, improving product stability and reducing bugs by 5%
           </li>
           <li>
             Used the Sentry reporting tool to monitor and resolve errors promptly, improving
