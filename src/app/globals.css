@@ -4,7 +4,7 @@
   --background: #fbfbfb;
   --foreground: #3a3a3a;
   --menu: #e5e5e5d0;
-  --background-image: linear-gradient(60deg, #c6d1dd 0%, white 10%);
+  --background-image: linear-gradient(60deg, #c6d1dd 0%, white 110%);
 }
 
 @theme inline {
