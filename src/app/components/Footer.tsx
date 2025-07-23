@@ -24,13 +24,28 @@ export default function Footer() {
       style={{ justifySelf: 'right' }}
       id="contact">
       <IconButton href="https://github.com/jamiemcg10" target="_blank" size="small">
-        <GitHubIcon sx={{ color: 'white' }} />
+        <GitHubIcon
+          sx={{
+            color: 'var(--foreground)',
+            '@media(prefers-color-scheme: dark)': { color: 'white' }
+          }}
+        />
       </IconButton>
       <IconButton href="https://www.linkedin.com/in/jamie-a-smart" target="_blank" size="small">
-        <LinkedInIcon sx={{ color: 'white' }} />
+        <LinkedInIcon
+          sx={{
+            color: 'var(--foreground)',
+            '@media(prefers-color-scheme: dark)': { color: 'white' }
+          }}
+        />
       </IconButton>
       <IconButton href="mailto:jamie@jamie-smart.info" target="_blank" size="small">
-        <EmailIcon sx={{ color: 'white' }} />
+        <EmailIcon
+          sx={{
+            color: 'var(--foreground)',
+            '@media(prefers-color-scheme: dark)': { color: 'white' }
+          }}
+        />
       </IconButton>
     </div>
   )
