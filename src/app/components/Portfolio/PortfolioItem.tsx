@@ -50,7 +50,7 @@ export default function PortfolioItem({
             }}
           />
         </IconButton>
-        <div className="text-sm mt-4">{description}</div>
+        <div className="mt-4">{description}</div>
       </div>
     </div>
   )

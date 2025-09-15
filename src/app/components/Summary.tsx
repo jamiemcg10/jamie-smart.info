@@ -4,7 +4,7 @@ export default function Summary() {
   return (
     <div>
       <Subheading>Executive Summary</Subheading>
-      <div>
+      <div className="text-lg">
         Full-stack software engineer with experience building user-friendly, reliable web
         applications and optimizing system performance. Skilled in managing both SQL and NoSQL
         databases to support efficient, real-time applications. Adept at translating complex
