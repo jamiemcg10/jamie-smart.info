@@ -11,8 +11,8 @@ export default function Skills() {
           <div>
             <div className="my-3 text-center">Languages</div>
             <div className="grid grid-cols-4 gap-3">
-              <Skill imgSrc="/skills/typescript">Typescript</Skill>
-              <Skill imgSrc="/skills/javascript">Javascript</Skill>
+              <Skill imgSrc="/skills/typescript">TypeScript</Skill>
+              <Skill imgSrc="/skills/javascript">JavaScript</Skill>
               <Skill imgSrc="/skills/python">Python</Skill>
               <Skill imgSrc="/skills/java">Java</Skill>
               <Skill imgSrc="/skills/html">HTML5</Skill>
@@ -38,6 +38,7 @@ export default function Skills() {
                 Express.js
               </Skill>
               <Skill imgSrc="/skills/node">Node.js</Skill>
+              <Skill imgSrc="/skills/fastapi">FastAPI</Skill>
             </div>
           </div>
           <div>
@@ -50,6 +51,16 @@ export default function Skills() {
             </div>
           </div>
           <div>
+            <div className="my-3 text-center">Testing</div>
+            <div className="grid grid-cols-4 gap-3">
+              <Skill imgSrc="/skills/cypress" dualTone>
+                Cypress
+              </Skill>
+              <Skill imgSrc="/skills/playwright">Playwright</Skill>
+              <Skill imgSrc="/skills/jest">Jest</Skill>
+            </div>
+          </div>
+          <div>
             <div className="my-3 text-center">Tools & Platforms</div>
             <div className="grid grid-cols-4 gap-3">
               <Skill imgSrc="/skills/git">Git</Skill>
@@ -57,10 +68,6 @@ export default function Skills() {
                 GitHub
               </Skill>
               <Skill imgSrc="/skills/elasticsearch">ElasticSearch</Skill>
-              <Skill imgSrc="/skills/cypress" dualTone>
-                Cypress
-              </Skill>
-              <Skill imgSrc="/skills/playwright">Playwright</Skill>
               <Skill imgSrc="/skills/figma">Figma</Skill>
               <Skill imgSrc="/skills/tailwind-css">Tailwind CSS</Skill>
               <Skill imgSrc="/skills/material-ui">Material UI</Skill>
