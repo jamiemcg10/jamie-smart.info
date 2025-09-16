@@ -38,7 +38,9 @@ export default function PortfolioItem({
       </div>
       <div className="basis-1/2 sm:pl-6 mt-4 sm:mt-0">
         <Subheading>{title}</Subheading>{' '}
-        <div className="text-yellow-500">{underConstruction ? '🚧UNDER CONSTRUCTION🚧' : null}</div>
+        <div className="dark:text-yellow-500 text-yellow-600">
+          {underConstruction ? '🚧UNDER CONSTRUCTION🚧' : null}
+        </div>
         <IconButton href={url} target="_blank" size="small">
           <LinkIcon
             sx={{
