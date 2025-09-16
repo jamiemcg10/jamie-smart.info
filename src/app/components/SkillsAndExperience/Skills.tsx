@@ -8,7 +8,7 @@ export default function Skills() {
       <div className="absolute -mt-22" id="skills"></div>
       <div className="w-full sm:w-auto">
         <Subheading>Skills</Subheading>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col">
           <SkillGroup title="Languages">
             <Skill imgSrc="/skills/typescript">TypeScript</Skill>
             <Skill imgSrc="/skills/javascript">JavaScript</Skill>

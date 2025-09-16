@@ -17,9 +17,13 @@ export default function ExperienceItem({ title, company, dates, bullets }: Exper
           {title} - {company}
         </div>
         <div className="italic mb-2">{dates}</div>
-        <ol className="ml-4 flex flex-col space-y-2 list-disc tracking-wide">
+        <ol className="ml-4 flex flex-col space-y-2 tracking-wide">
           {bullets.map((bullet, i) => {
-            return <li key={i}>{bullet}</li>
+            return (
+              <li key={i} className="hover:scale-110 transition list-disc hover:list-none">
+                {bullet}
+              </li>
+            )
           })}
         </ol>
       </div>
