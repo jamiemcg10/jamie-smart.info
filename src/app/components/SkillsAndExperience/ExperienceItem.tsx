@@ -13,10 +13,10 @@ export default function ExperienceItem({ title, company, dates, bullets }: Exper
       <TimelineSegment />
 
       <div>
-        <div className="font-semibold">
+        <div className="font-semibold text-lg">
           {title} - {company}
         </div>
-        <div className="italic text-sm mb-2">{dates}</div>
+        <div className="italic mb-2">{dates}</div>
         <ol className="ml-4 flex flex-col space-y-2 list-disc text-lg">
           {bullets.map((bullet, i) => {
             return <li key={i}>{bullet}</li>

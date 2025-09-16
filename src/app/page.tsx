@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="p-4 sm:p-16 mt-8">
+      <div className="p-4 sm:p-32 sm:pb-16 mt-8">
         <div className="h-32 mb-2 text-5xl sm:text-6xl font-semibold content-center">
           Jamie Smart
         </div>

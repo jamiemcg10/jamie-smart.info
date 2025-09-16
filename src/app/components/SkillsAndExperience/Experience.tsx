@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <div className="relative sm:w-2/3">
       <div className="absolute -mt-12" id="experience"></div>
-      <div className="w-full mt-8 sm:mt-0" id="experience">
+      <div className="w-full mt-8 sm:mt-0 sm:px-8 " id="experience">
         <Subheading>Experience</Subheading>
         <div className="mt-6">
           <ExperienceItem
@@ -17,7 +17,7 @@ export default function Experience() {
             dates={Latitude.dates}
             bullets={Latitude.bullets}
           />
-          <div className="h-4"></div>
+          <div className="h-16"></div>
           <ExperienceItem
             title={BH3.title}
             company={BH3.company}
