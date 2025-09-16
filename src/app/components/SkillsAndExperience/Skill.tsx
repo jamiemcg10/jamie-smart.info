@@ -8,7 +8,7 @@ interface SkillProps {
 
 export default function Skill({ imgSrc, children, dualTone }: SkillProps) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-20">
       <img
         src={`${imgSrc}.svg`}
         height="50"
@@ -25,7 +25,7 @@ export default function Skill({ imgSrc, children, dualTone }: SkillProps) {
           className="max-w-[50px] min-w-[50px] max-h-[50px] min-h-[50px] hidden dark:block"
         />
       ) : null}
-      <div className="text-sm mt-2 text-nowrap">{children}</div>
+      <div className="text-sm mt-2 text-center">{children}</div>
     </div>
   )
 }
