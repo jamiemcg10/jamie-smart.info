@@ -29,7 +29,7 @@ export default function PortfolioItem({
   underConstruction
 }: PortfolioItemProps) {
   return (
-    <div className="flex flex-col sm:flex-row mb-8 sm:mb-12">
+    <div className="flex flex-col sm:flex-row mb-8 sm:mb-16">
       <div className="basis-1/2 sm:pr-6 mt-8 sm:mt-0">
         <video controls poster={posterSrc} controlsList="nodownload">
           <source src={src} type={videoType} />
