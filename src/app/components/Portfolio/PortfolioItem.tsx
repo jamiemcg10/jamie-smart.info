@@ -14,6 +14,7 @@ interface PortfolioItemProps {
   src: string
   videoType?: string
   trackSrc?: string
+  underConstruction?: boolean
 }
 
 export default function PortfolioItem({
@@ -24,7 +25,8 @@ export default function PortfolioItem({
   posterSrc,
   src,
   videoType = 'video/mp4',
-  trackSrc
+  trackSrc,
+  underConstruction
 }: PortfolioItemProps) {
   return (
     <div className="flex flex-col sm:flex-row mb-8 sm:mb-12">
@@ -35,7 +37,8 @@ export default function PortfolioItem({
         </video>
       </div>
       <div className="basis-1/2 sm:pl-6 mt-4 sm:mt-0">
-        <Subheading>{title}</Subheading>
+        <Subheading>{title}</Subheading>{' '}
+        <div className="text-yellow-500">{underConstruction ? '🚧UNDER CONSTRUCTION🚧' : null}</div>
         <IconButton href={url} target="_blank" size="small">
           <LinkIcon
             sx={{
@@ -50,7 +53,7 @@ export default function PortfolioItem({
             }}
           />
         </IconButton>
-        <div className="mt-4">{description}</div>
+        <div className="mt-4 text-lg">{description}</div>
       </div>
     </div>
   )

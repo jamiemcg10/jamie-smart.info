@@ -1,5 +1,6 @@
 import Footer from './components/Footer'
 import Header from './components/Header/Header'
+import MioCrew from './components/Portfolio/MioCrew'
 import MountainComparer from './components/Portfolio/MountainComparer'
 import MyVirtualCookbook from './components/Portfolio/MyVirtualCookbook'
 import ResumeLink from './components/ResumeLink'
@@ -21,6 +22,7 @@ export default function Home() {
           <ResumeLink />
         </Section>
         <Section title="Portfolio" href="portfolio">
+          <MioCrew />
           <MyVirtualCookbook />
           <MountainComparer />
         </Section>
