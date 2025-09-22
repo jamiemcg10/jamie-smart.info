@@ -51,7 +51,7 @@ export default function Skills() {
             <Skill imgSrc="/skills/github" dualTone>
               GitHub
             </Skill>
-            <Skill imgSrc="/skills/elasticsearch">ElasticSearch</Skill>
+            <Skill imgSrc="/skills/elasticsearch">Elasticsearch</Skill>
             <Skill imgSrc="/skills/figma">Figma</Skill>
             <Skill imgSrc="/skills/tailwind-css">Tailwind CSS</Skill>
             <Skill imgSrc="/skills/material-ui">Material UI</Skill>
