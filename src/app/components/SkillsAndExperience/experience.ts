@@ -4,11 +4,10 @@ export const experience = {
     company: 'Boston Hash House Harriers Running Club',
     dates: 'October 2020 - Present',
     bullets: [
-      'Facilitate event registration for ~150 participants by managing form creation, data handling, and backend integration',
-      'Enhance usability by optimizing layouts for mobile devices and improving overall user experience',
-      'Create and maintain documentation to ensure easy onboarding for future administrators',
-      'Transitioned the database from PostgreSQL to Google Sheets to streamline operations and improve usability, using the Sheets API to treat it as a structured data store supporting real-time access and dynamic queries',
-      'Rebuilt the website using the Svelte and SvelteKit frameworks, replacing Ruby on Rails to boost speed and simplify maintainability'
+      'Maintained a Ruby on Rails site with a PostgreSQL database supporting event registration, data handling, and backend integrations',
+      'Converted the site to a React and TypeScript frontend with Next.js (SSR) to improve speed and maintainabilitye',
+      'Increase usability by implementing responsive layouts and mobile optimization using Bootstrap',
+      'Create and maintain documentation to ensure easy onboarding for future developers'
     ]
   },
   Latitude: {
@@ -16,12 +15,14 @@ export const experience = {
     company: 'Latitude Research',
     dates: 'February 2021 - April 2025',
     bullets: [
-      'Translated Figma designs into modular components and responsive application pages',
-      'Designed and implemented core business logic, non-relational database integrations, and dynamic interfaces supporting 1,000+ users',
-      'Automated testing and deployment with GitHub Actions to enable CI/CD pipelines and catch bugs earlier, improving product stability and reducing bugs by 5%',
-      'Diagnosed and resolved complex production issues by enhancing logging and debugging workflows',
-      'Used the Sentry error tracking tool to monitor and resolve errors promptly, improving application reliability and reducing issue resolution time by an estimated 15%',
-      'Improved performance and maintainability by refactoring inefficient logic, removing duplication, and enforcing code quality through peer reviews'
+      'Built dynamic interfaces with responsive, reusable frontend components based on Figma designs',
+      'Used TypeScript to design and implement REST APIs and database connections',
+      'Worked within a monorepo architecture to maintain multiple microservices with shared resources',
+      'Maintained a CI/CD pipeline using GitHub Actions to facilitate automated testing and deployment',
+      'Wrote Cypress and Playwright end-to-end tests and Jest unit tests to ensure product stability',
+      'Used the Sentry observability platform to improve application reliability and resolve errors promptly',
+      'Contributed to an agile development process by participating in sprint planning, async standups, and iterative feature delivery',
+      'Maintained application infrastructure on Google Cloud Platform (GCP), utilizing App Engine, Cloud Storage, Cloud Run functions, Firestore, and Cloud Logging to support production workloads'
     ]
   }
 }
