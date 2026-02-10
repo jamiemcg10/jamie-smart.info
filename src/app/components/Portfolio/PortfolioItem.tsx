@@ -4,12 +4,13 @@ import Subheading from '../Subheading'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkIcon from '@mui/icons-material/Link'
 import IconButton from '@mui/material/IconButton'
+import { ReactNode } from 'react'
 
 interface PortfolioItemProps {
   title: string
   url: string
   gitHubUrl: string
-  description: string
+  description: ReactNode
   posterSrc: string
   src: string
   videoType?: string
@@ -30,7 +31,7 @@ export default function PortfolioItem({
 }: PortfolioItemProps) {
   return (
     <div className="flex flex-col sm:flex-row mb-8 sm:mb-16">
-      <div className="basis-1/2 sm:pr-6 mt-8 sm:mt-0">
+      <div className="basis-1/2 sm:pr-6 mt-8 sm:mt-0 content-center">
         <video controls poster={posterSrc} controlsList="nodownload">
           <source src={src} type={videoType} />
           {trackSrc ? <track kind="captions" src={trackSrc} srcLang="en" /> : null}
