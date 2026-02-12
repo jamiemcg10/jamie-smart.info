@@ -16,6 +16,7 @@ interface PortfolioItemProps {
   description: ReactNode
   technologies: string[]
   imgSrc: string
+  onDemo: () => void
 }
 
 const linkIconSx = {
@@ -29,7 +30,8 @@ export default function PortfolioItem({
   gitHubUrl,
   description,
   technologies,
-  imgSrc
+  imgSrc,
+  onDemo
 }: PortfolioItemProps) {
   return (
     <div className="w-[262px] h-[300px] overflow-hidden border border-gray-400 shadow bg-white rounded-lg">
@@ -62,7 +64,7 @@ export default function PortfolioItem({
             </Tooltip>
           </div>
           <Tooltip title="See demo video">
-            <Button variant="contained" size="small">
+            <Button variant="contained" size="small" onClick={onDemo}>
               <PlayArrowRoundedIcon /> <span className="ml-1">Demo</span>
             </Button>
           </Tooltip>
