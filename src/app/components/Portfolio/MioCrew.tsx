@@ -7,11 +7,11 @@ export default function MioCrew() {
       url="https://www.miocrew.com/"
       gitHubUrl="https://github.com/jamiemcg10/miocrew"
       description={
-        <div className="gap-y-4">
-          <p>
+        <div>
+          <p className="mb-4">
             MioCrew is a full stack app designed to help people coordinate group trip logistics.
-            Users can create trips, add the crew who's going, create a schedule, track expenses, and
-            more.
+            Users can create trips, add the crew who&apos;s going, create a schedule, track
+            expenses, and more.
           </p>
 
           <p>
