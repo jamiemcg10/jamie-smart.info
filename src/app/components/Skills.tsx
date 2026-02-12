@@ -1,4 +1,4 @@
-import Section from './NewSection'
+import Section from './Section'
 import Skill from './SkillsAndExperience/Skill'
 import SkillSection from './SkillSection'
 

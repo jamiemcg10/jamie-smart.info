@@ -1,4 +1,4 @@
-import Section from './NewSection'
+import Section from './Section'
 
 export default function About() {
   return (
