@@ -8,24 +8,24 @@ interface SkillProps {
 
 export default function Skill({ imgSrc, children, dualTone }: SkillProps) {
   return (
-    <div className="flex flex-col items-center w-20">
+    <div className="flex items-center">
       <img
         src={`${imgSrc}.svg`}
-        height="50"
-        width="50"
-        className={`max-w-[50px] min-w-[50px] max-h-[50px] min-h-[50px] ${
+        height="25"
+        width="25"
+        className={`max-w-[25px] min-w-[25px] max-h-[25px] min-h-[25px] ${
           dualTone && 'block dark:hidden'
         }`}
       />
       {dualTone ? (
         <img
           src={`${imgSrc}-white.svg`}
-          height="50"
-          width="50"
-          className="max-w-[50px] min-w-[50px] max-h-[50px] min-h-[50px] hidden dark:block"
+          height="25"
+          width="25"
+          className="max-w-[25px] min-w-[25px] max-h-[25px] min-h-[25px] hidden dark:block"
         />
       ) : null}
-      <div className="text-sm mt-2 text-center antialiased">{children}</div>
+      <div className="font-bold text-sm ml-1 text-center antialiased">{children}</div>
     </div>
   )
 }
