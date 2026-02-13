@@ -5,7 +5,7 @@ export default function Hero() {
         <h1 className="text-5xl font-bold mb-2">Jamie Smart</h1>
         <h2 className="text-2xl opacity-90 mb-6">Software Engineer</h2>
         <p className="mb-8 opacity-90">
-          Building modern web experiences with React, Next.js, Node.js, and Python
+          Building modern web experiences with TypeScript, React, Next.js, Node.js, and Python
         </p>
       </div>
     </section>
