@@ -1,33 +1,17 @@
+import About from './components/About'
 import Footer from './components/Footer'
-import Header from './components/Header/Header'
-import MioCrew from './components/Portfolio/MioCrew'
-import MountainComparer from './components/Portfolio/MountainComparer'
-import MyVirtualCookbook from './components/Portfolio/MyVirtualCookbook'
-import ResumeLink from './components/ResumeLink'
-import Section from './components/Section'
-import SkillsAndExperience from './components/SkillsAndExperience/SkillsAndExperience'
-import Summary from './components/Summary'
+import Hero from './components/Header/Hero'
+import Portfolio from './components/Portfolio/Portfolio'
+import Skills from './components/Skills/Skills'
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <div className="p-4 sm:p-32 sm:pb-16 mt-8">
-        <div className="h-32 mb-2 text-5xl sm:text-6xl font-semibold content-center">
-          Jamie Smart
-        </div>
-        <Section title="About me" href="about">
-          <Summary />
-          <SkillsAndExperience />
-          <ResumeLink />
-        </Section>
-        <Section title="Portfolio" href="portfolio">
-          <MioCrew />
-          <MyVirtualCookbook />
-          <MountainComparer />
-        </Section>
-        <Footer />
-      </div>
+      <Hero />
+      <About />
+      <Portfolio />
+      <Skills />
+      <Footer />
     </>
   )
 }
