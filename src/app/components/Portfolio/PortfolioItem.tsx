@@ -33,7 +33,7 @@ export default function PortfolioItem({
   onDemo
 }: PortfolioItemProps) {
   return (
-    <div className="w-65.5 h-75 overflow-hidden border border-gray-300  bg-white rounded-lg shadow-lg">
+    <div className="w-65.5 h-75 overflow-hidden border border-gray-300 dark:border-gray-800 bg-white dark:bg-[#0a0a0a] rounded-lg shadow-lg">
       <img src={imgSrc} className="h-26 w-full" />
       <div className="p-3 flex flex-col gap-y-2 h-[196px]">
         <div className="text-lg font-bold">{title}</div>
@@ -43,7 +43,7 @@ export default function PortfolioItem({
             return (
               <div
                 key={tech}
-                className="inline-flex mr-1 px-1.5 py-0.5 bg-gray-300 rounded-sm text-xs">
+                className="inline-flex mr-1 px-1.5 py-0.5 bg-gray-300 dark:bg-gray-700 rounded-sm text-xs">
                 {tech}
               </div>
             )

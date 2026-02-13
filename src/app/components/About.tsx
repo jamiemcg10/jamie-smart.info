@@ -4,11 +4,11 @@ import Section from './Section'
 export default function About() {
   return (
     <Section title="About Me">
-      <ol className="list-disc mb-4">
+      <ol className="list-disc mb-4 space-y-2 tracking-wide">
         <li>
-          Full stack engineer with ~4 years professional experience building responsive frontend
-          interfaces, REST APIs, and cloud-backed applications using TypeScript, React, and modern
-          web tooling
+          Software engineer with 4+ years professional experience building responsive frontend
+          interfaces, REST APIs, and cloud-backed applications using TypeScript, React, Svelte, and
+          Python
         </li>
         <li>
           Experienced in maintaining production systems end-to-end, including CI/CD pipelines,
@@ -19,12 +19,8 @@ export default function About() {
           architectures, and shared microservices
         </li>
         <li>
-          Demonstrated ownership beyond coding through documentation, developer onboarding support,
-          and ongoing maintenance of live applications
-        </li>
-        <li>
           Broad technical stack spanning multiple frontend frameworks, backend technologies,
-          databases, and testing tools, supported by a master’s degree in computer science
+          databases, and testing tools
         </li>
       </ol>
       <Button variant="contained" href="/resume">
