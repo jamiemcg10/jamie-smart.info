@@ -1,5 +1,5 @@
-import Section from './Section'
-import Skill from './SkillsAndExperience/Skill'
+import Section from '../Section'
+import Skill from './Skill'
 import SkillSection from './SkillSection'
 
 export default function Skills() {

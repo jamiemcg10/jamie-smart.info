@@ -1,6 +1,5 @@
 'use client'
 
-import Subheading from '../Subheading'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import LinkIcon from '@mui/icons-material/Link'
 import Button from '@mui/material/Button'
