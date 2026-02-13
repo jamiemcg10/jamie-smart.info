@@ -23,7 +23,7 @@ export default function About() {
           databases, and testing tools
         </li>
       </ol>
-      <Button variant="contained" href="/resume">
+      <Button variant="text" href="/resume">
         View full resume
       </Button>
     </Section>
