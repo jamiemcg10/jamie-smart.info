@@ -51,7 +51,7 @@ export default function Portfolio() {
   return (
     <>
       <Section title="Projects">
-        <div className="grid grid-cols-1 sm:grid-cols-3">
+        <div className="grid grid-cols-1 @xl:grid-cols-2 @4xl:grid-cols-3 gap-x-2 gap-y-6 justify-items-center">
           <PortfolioItem
             title="MioCrew"
             url="https://www.miocrew.com/"

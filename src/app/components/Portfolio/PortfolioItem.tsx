@@ -34,7 +34,7 @@ export default function PortfolioItem({
   onDemo
 }: PortfolioItemProps) {
   return (
-    <div className="w-[262px] h-[300px] overflow-hidden border border-gray-400 shadow bg-white rounded-lg">
+    <div className="w-65.5 h-75 overflow-hidden border border-gray-300  bg-white rounded-lg shadow-lg">
       <img src={imgSrc} className="h-26 w-full" />
       <div className="p-3 flex flex-col gap-y-2 h-[196px]">
         <div className="text-lg font-bold">{title}</div>

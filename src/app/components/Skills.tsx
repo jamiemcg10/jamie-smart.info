@@ -5,7 +5,7 @@ import SkillSection from './SkillSection'
 export default function Skills() {
   return (
     <Section title="Skills">
-      <div className="grid grid-cols-1 @2xs:grid-cols-2 @4xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 @md:grid-cols-2 @5xl:grid-cols-4 gap-6 justify-items-center">
         <SkillSection title="Languages">
           <Skill imgSrc="/skills/typescript">TypeScript</Skill>
           <Skill imgSrc="/skills/python">Python</Skill>
